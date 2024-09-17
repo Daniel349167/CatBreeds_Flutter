@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
     precacheImage(AssetImage('assets/images/cat_logo.jpg'), context);
 
     // Retraso de 3 segundos antes de navegar a la LandingScreen
-    Future.delayed(Duration(seconds: 6), () {
+    Future.delayed(Duration(seconds: 7), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => LandingScreen()),
@@ -34,8 +34,8 @@ class _SplashScreenState extends State<SplashScreen> {
               borderRadius: BorderRadius.circular(20.0), // Bordes redondeados
               child: Image.asset(
                 'assets/images/cat_logo.jpg',
-                width: 120, // Tamaño más grande
-                height: 120, // Tamaño más grande
+                width: 130, // Tamaño más grande
+                height: 130, // Tamaño más grande
                 fit: BoxFit.cover,
               ),
             ),
