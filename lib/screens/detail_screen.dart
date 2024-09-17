@@ -19,7 +19,7 @@ class DetailScreen extends StatelessWidget {
                   imageUrl: breed.imageUrl,
                   height: 250,
                   width: double.infinity,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain, // Cambiado a contain para que no se corte la imagen
                   placeholder: (context, url) => Center(
                     child: CircularProgressIndicator(),
                   ),

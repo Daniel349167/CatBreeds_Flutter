@@ -62,8 +62,10 @@ class _LandingScreenState extends State<LandingScreen> {
         children: [
           // Barra de búsqueda
           Padding(
-            padding: const EdgeInsets.only(top: 10.0, bottom: 10.0, left: 8.0, right: 8.0),
-            child: TextField(
+          padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 8.0, right: 8.0),
+          child: Container(
+            height: 60, // Ajusta la altura del contenedor
+            child: TextFormField(
               controller: searchController,
               onChanged: filterSearchResults,
               decoration: InputDecoration(
@@ -73,12 +75,24 @@ class _LandingScreenState extends State<LandingScreen> {
                 ),
                 prefixIcon: Icon(Icons.search),
               ),
+              style: TextStyle(fontSize: 15),
             ),
           ),
-          // Lista de razas filtradas
+        ),
+
+
+          // Lista de razas filtradas o mensaje de "No se encontraron resultados"
           Expanded(
             child: filteredBreeds.isEmpty
-                ? Center(child: CircularProgressIndicator())
+                ? (searchController.text.isNotEmpty // Solo muestra el mensaje si hay algo en el campo de búsqueda
+                    ? Center(
+                        child: Text(
+                          'No se encontraron resultados',
+                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    : Center(child: CircularProgressIndicator()) // Si no hay búsqueda, muestra el loading al inicio
+                  )
                 : ListView.builder(
                     itemCount: filteredBreeds.length,
                     itemBuilder: (context, index) {
