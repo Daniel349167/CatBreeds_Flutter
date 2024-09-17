@@ -51,8 +51,8 @@ La información se obtiene desde la API de [TheCatAPI](https://developers.thecat
 
 ## Imágenes de la App
 
-<div style="display: flex; justify-content: center;">
-  <table>
+<div style="width: 100%; display: flex; justify-content: center;">
+  <table style="margin: auto;">
     <tr>
       <td><img src="https://github.com/user-attachments/assets/7c156d33-ff28-478b-ba24-18a68c27ed11" width="300"/></td>
       <td><img src="https://github.com/user-attachments/assets/dfa8020e-f619-43f7-99ce-5ab5aefdab93" width="300"/></td>
