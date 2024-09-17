@@ -53,15 +53,12 @@ La información se obtiene desde la API de [TheCatAPI](https://developers.thecat
 
 ## Imágenes de la App
 
-## Imágenes de la App
-
-## Imágenes de la App
-
-<p style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/7c156d33-ff28-478b-ba24-18a68c27ed11" width="30%" style="margin-right: 50;" />
-  <img src="https://github.com/user-attachments/assets/dfa8020e-f619-43f7-99ce-5ab5aefdab93" width="30%" style="margin-right: 50;" />
+<p style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/7c156d33-ff28-478b-ba24-18a68c27ed11" width="30%" />
+  <img src="https://github.com/user-attachments/assets/dfa8020e-f619-43f7-99ce-5ab5aefdab93" width="30%" />
   <img src="https://github.com/user-attachments/assets/80e071dc-0b50-4c82-b421-9e3e5e3ad3de" width="30%" />
 </p>
+
 
 
 
