@@ -51,14 +51,13 @@ La información se obtiene desde la API de [TheCatAPI](https://developers.thecat
 
 ## Imágenes de la App
 
-<table>
+<table border="0">
   <tr>
     <td><img src="https://github.com/user-attachments/assets/7c156d33-ff28-478b-ba24-18a68c27ed11" width="300"/></td>
     <td><img src="https://github.com/user-attachments/assets/dfa8020e-f619-43f7-99ce-5ab5aefdab93" width="300"/></td>
     <td><img src="https://github.com/user-attachments/assets/80e071dc-0b50-4c82-b421-9e3e5e3ad3de" width="300"/></td>
   </tr>
 </table>
-
 
 
 
